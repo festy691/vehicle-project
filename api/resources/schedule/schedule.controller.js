@@ -3,7 +3,7 @@ const path = require("path");
 const cloudinary = require('../../../config/cloudinary');
 const fs = require('fs');
 
-const ScheduleModel = require("./Schedule.model");
+const ScheduleModel = require("./schedule.model");
 
 module.exports =  {
     async createSchedule(req,res){
