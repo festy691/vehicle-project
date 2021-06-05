@@ -15,7 +15,7 @@ let VehicleSchema = new mongoose.Schema({
         required : true
     },
     vehicleNumber : {
-        type : Number,
+        type : String,
         required : true
     },
     description : {
