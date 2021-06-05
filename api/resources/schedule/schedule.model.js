@@ -17,7 +17,7 @@ let ScheduleSchema = new mongoose.Schema({
         required : true
     },
     departureTime : {
-        type : Number,
+        type : String,
         required : true
     },
     date : {
